@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-class JavaSpringTemplateApplicationTests {
+public class JavaSpringTemplateApplicationTests {
 
 	@Test
 	public void shouldHaveInstantiateCCWithSucess() {
@@ -20,7 +20,7 @@ class JavaSpringTemplateApplicationTests {
 		
 		Conta cp = new ContaPoupanca(5, 12, "CP");
 		
-		assertEquals("Cp", cp.getTipo());
+		assertEquals("CP", cp.getTipo());
 		
 	}
 	
